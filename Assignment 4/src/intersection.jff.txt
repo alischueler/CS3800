@@ -1,0 +1,356 @@
+<automaton>
+ <!--The list of states.-->
+<state id="((q1.1 q0.2).1 (q0.1 q1.2).2)" name="((q1.1 q0.2).1 (q0.1 q1.2).2)"></state>
+<state id="((q2.1 q1.2).1 (q1.1 q0.2).2)" name="((q2.1 q1.2).1 (q1.1 q0.2).2)"></state>
+<state id="((q3.1 q1.2).1 (q1.1 q0.2).2)" name="((q3.1 q1.2).1 (q1.1 q0.2).2)"></state>
+<state id="((q1.1 q1.2).1 (q1.1 q0.2).2)" name="((q1.1 q1.2).1 (q1.1 q0.2).2)"></state>
+<state id="((q0.1 q1.2).1 (q0.1 q0.2).2)" name="((q0.1 q1.2).1 (q0.1 q0.2).2)"></state>
+<state id="((q3.1 q0.2).1 (q1.1 q1.2).2)" name="((q3.1 q0.2).1 (q1.1 q1.2).2)"></state>
+<state id="((q2.1 q0.2).1 (q0.1 q1.2).2)" name="((q2.1 q0.2).1 (q0.1 q1.2).2)"></state>
+<state id="((q3.1 q0.2).1 (q0.1 q0.2).2)" name="((q3.1 q0.2).1 (q0.1 q0.2).2)"></state>
+<state id="((q1.1 q0.2).1 (q1.1 q1.2).2)" name="((q1.1 q0.2).1 (q1.1 q1.2).2)"></state>
+<state id="((q2.1 q0.2).1 (q0.1 q0.2).2)" name="((q2.1 q0.2).1 (q0.1 q0.2).2)"></state>
+<state id="((q2.1 q1.2).1 (q0.1 q1.2).2)" name="((q2.1 q1.2).1 (q0.1 q1.2).2)"></state>
+<state id="((q0.1 q0.2).1 (q0.1 q1.2).2)" name="((q0.1 q0.2).1 (q0.1 q1.2).2)"></state>
+<state id="((q2.1 q0.2).1 (q1.1 q1.2).2)" name="((q2.1 q0.2).1 (q1.1 q1.2).2)"></state>
+<state id="((q0.1 q1.2).1 (q1.1 q0.2).2)" name="((q0.1 q1.2).1 (q1.1 q0.2).2)"></state>
+<state id="((q3.1 q1.2).1 (q0.1 q1.2).2)" name="((q3.1 q1.2).1 (q0.1 q1.2).2)"></state>
+<state id="((q0.1 q0.2).1 (q0.1 q0.2).2)" name="((q0.1 q0.2).1 (q0.1 q0.2).2)"><initial/></state>
+<state id="((q0.1 q1.2).1 (q0.1 q1.2).2)" name="((q0.1 q1.2).1 (q0.1 q1.2).2)"></state>
+<state id="((q2.1 q1.2).1 (q1.1 q1.2).2)" name="((q2.1 q1.2).1 (q1.1 q1.2).2)"></state>
+<state id="((q3.1 q1.2).1 (q0.1 q0.2).2)" name="((q3.1 q1.2).1 (q0.1 q0.2).2)"></state>
+<state id="((q1.1 q1.2).1 (q0.1 q1.2).2)" name="((q1.1 q1.2).1 (q0.1 q1.2).2)"></state>
+<state id="((q2.1 q0.2).1 (q1.1 q0.2).2)" name="((q2.1 q0.2).1 (q1.1 q0.2).2)"></state>
+<state id="((q0.1 q0.2).1 (q1.1 q1.2).2)" name="((q0.1 q0.2).1 (q1.1 q1.2).2)"></state>
+<state id="((q1.1 q0.2).1 (q0.1 q0.2).2)" name="((q1.1 q0.2).1 (q0.1 q0.2).2)"></state>
+<state id="((q3.1 q0.2).1 (q1.1 q0.2).2)" name="((q3.1 q0.2).1 (q1.1 q0.2).2)"></state>
+<state id="((q3.1 q1.2).1 (q1.1 q1.2).2)" name="((q3.1 q1.2).1 (q1.1 q1.2).2)"><final/></state>
+<state id="((q0.1 q1.2).1 (q1.1 q1.2).2)" name="((q0.1 q1.2).1 (q1.1 q1.2).2)"></state>
+<state id="((q3.1 q0.2).1 (q0.1 q1.2).2)" name="((q3.1 q0.2).1 (q0.1 q1.2).2)"></state>
+<state id="((q0.1 q0.2).1 (q1.1 q0.2).2)" name="((q0.1 q0.2).1 (q1.1 q0.2).2)"></state>
+<state id="((q1.1 q1.2).1 (q0.1 q0.2).2)" name="((q1.1 q1.2).1 (q0.1 q0.2).2)"></state>
+<state id="((q1.1 q0.2).1 (q1.1 q0.2).2)" name="((q1.1 q0.2).1 (q1.1 q0.2).2)"></state>
+<state id="((q1.1 q1.2).1 (q1.1 q1.2).2)" name="((q1.1 q1.2).1 (q1.1 q1.2).2)"></state>
+<state id="((q2.1 q1.2).1 (q0.1 q0.2).2)" name="((q2.1 q1.2).1 (q0.1 q0.2).2)"></state>
+ <!--The list of transitions.-->
+<transition><from>((q1.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q0.1 q1.2).2) A</read></transition>
+<transition><from>((q1.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q2.1 q0.2)</to><read>1 (q0.1 q1.2).2) a</read></transition>
+<transition><from>((q1.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q2.1 q0.2)</to><read>1 (q0.1 q1.2).2) !</read></transition>
+<transition><from>((q1.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q2.1 q0.2)</to><read>1 (q1.1 q1.2).2) 1</read></transition>
+<transition><from>((q1.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q2.1 q0.2)</to><read>1 (q0.1 q1.2).2) b</read></transition>
+<transition><from>((q1.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q0.1 q1.2).2) B</read></transition>
+<transition><from>((q1.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q2.1 q0.2)</to><read>1 (q1.1 q1.2).2) 2</read></transition>
+<transition><from>((q1.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q2.1 q0.2)</to><read>1 (q0.1 q1.2).2) c</read></transition>
+<transition><from>((q1.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q0.1 q1.2).2) C</read></transition>
+<transition><from>((q1.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q2.1 q0.2)</to><read>1 (q1.1 q1.2).2) 3</read></transition>
+<transition><from>((q2.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q0.2).2) A</read></transition>
+<transition><from>((q2.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q0.2).2) a</read></transition>
+<transition><from>((q2.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q1.2).2) !</read></transition>
+<transition><from>((q2.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q0.2).2) 1</read></transition>
+<transition><from>((q2.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q0.2).2) b</read></transition>
+<transition><from>((q2.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q0.2).2) B</read></transition>
+<transition><from>((q2.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q0.2).2) 2</read></transition>
+<transition><from>((q2.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q0.2).2) c</read></transition>
+<transition><from>((q2.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q0.2).2) C</read></transition>
+<transition><from>((q2.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q0.2).2) 3</read></transition>
+<transition><from>((q3.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q0.2).2) A</read></transition>
+<transition><from>((q3.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q0.2).2) a</read></transition>
+<transition><from>((q3.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q1.2).2) !</read></transition>
+<transition><from>((q3.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q0.2).2) 1</read></transition>
+<transition><from>((q3.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q0.2).2) b</read></transition>
+<transition><from>((q3.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q0.2).2) B</read></transition>
+<transition><from>((q3.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q0.2).2) 2</read></transition>
+<transition><from>((q3.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q0.2).2) c</read></transition>
+<transition><from>((q3.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q0.2).2) C</read></transition>
+<transition><from>((q3.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q0.2).2) 3</read></transition>
+<transition><from>((q1.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q1.1 q0.2).2) A</read></transition>
+<transition><from>((q1.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q1.1 q0.2).2) a</read></transition>
+<transition><from>((q1.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q1.1 q1.2).2) !</read></transition>
+<transition><from>((q1.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q1.1 q0.2).2) 1</read></transition>
+<transition><from>((q1.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q1.1 q0.2).2) b</read></transition>
+<transition><from>((q1.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q1.1 q0.2).2) B</read></transition>
+<transition><from>((q1.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q1.1 q0.2).2) 2</read></transition>
+<transition><from>((q1.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q1.1 q0.2).2) c</read></transition>
+<transition><from>((q1.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q1.1 q0.2).2) C</read></transition>
+<transition><from>((q1.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q1.1 q0.2).2) 3</read></transition>
+<transition><from>((q0.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q0.1 q0.2).2) A</read></transition>
+<transition><from>((q0.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q0.1 q0.2).2) a</read></transition>
+<transition><from>((q0.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q0.1 q1.2).2) !</read></transition>
+<transition><from>((q0.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q1.1 q0.2).2) 1</read></transition>
+<transition><from>((q0.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q0.1 q0.2).2) b</read></transition>
+<transition><from>((q0.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q0.1 q0.2).2) B</read></transition>
+<transition><from>((q0.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q1.1 q0.2).2) 2</read></transition>
+<transition><from>((q0.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q0.1 q0.2).2) c</read></transition>
+<transition><from>((q0.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q0.1 q0.2).2) C</read></transition>
+<transition><from>((q0.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q1.1 q0.2).2) 3</read></transition>
+<transition><from>((q3.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q1.2).2) A</read></transition>
+<transition><from>((q3.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q1.2).2) a</read></transition>
+<transition><from>((q3.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q1.2).2) !</read></transition>
+<transition><from>((q3.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q1.2).2) 1</read></transition>
+<transition><from>((q3.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q1.2).2) b</read></transition>
+<transition><from>((q3.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q1.2).2) B</read></transition>
+<transition><from>((q3.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q1.2).2) 2</read></transition>
+<transition><from>((q3.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q1.2).2) c</read></transition>
+<transition><from>((q3.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q1.2).2) C</read></transition>
+<transition><from>((q3.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q1.2).2) 3</read></transition>
+<transition><from>((q2.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q1.2).2) A</read></transition>
+<transition><from>((q2.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q0.1 q1.2).2) a</read></transition>
+<transition><from>((q2.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q0.1 q1.2).2) !</read></transition>
+<transition><from>((q2.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q1.2).2) 1</read></transition>
+<transition><from>((q2.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q0.1 q1.2).2) b</read></transition>
+<transition><from>((q2.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q1.2).2) B</read></transition>
+<transition><from>((q2.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q1.2).2) 2</read></transition>
+<transition><from>((q2.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q0.1 q1.2).2) c</read></transition>
+<transition><from>((q2.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q1.2).2) C</read></transition>
+<transition><from>((q2.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q1.2).2) 3</read></transition>
+<transition><from>((q3.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q0.2).2) A</read></transition>
+<transition><from>((q3.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q0.1 q0.2).2) a</read></transition>
+<transition><from>((q3.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q0.1 q1.2).2) !</read></transition>
+<transition><from>((q3.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q0.2).2) 1</read></transition>
+<transition><from>((q3.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q0.1 q0.2).2) b</read></transition>
+<transition><from>((q3.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q0.2).2) B</read></transition>
+<transition><from>((q3.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q0.2).2) 2</read></transition>
+<transition><from>((q3.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q0.1 q0.2).2) c</read></transition>
+<transition><from>((q3.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q0.2).2) C</read></transition>
+<transition><from>((q3.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q0.2).2) 3</read></transition>
+<transition><from>((q1.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q1.1 q1.2).2) A</read></transition>
+<transition><from>((q1.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q2.1 q0.2)</to><read>1 (q1.1 q1.2).2) a</read></transition>
+<transition><from>((q1.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q2.1 q0.2)</to><read>1 (q1.1 q1.2).2) !</read></transition>
+<transition><from>((q1.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q2.1 q0.2)</to><read>1 (q1.1 q1.2).2) 1</read></transition>
+<transition><from>((q1.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q2.1 q0.2)</to><read>1 (q1.1 q1.2).2) b</read></transition>
+<transition><from>((q1.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q1.1 q1.2).2) B</read></transition>
+<transition><from>((q1.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q2.1 q0.2)</to><read>1 (q1.1 q1.2).2) 2</read></transition>
+<transition><from>((q1.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q2.1 q0.2)</to><read>1 (q1.1 q1.2).2) c</read></transition>
+<transition><from>((q1.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q1.1 q1.2).2) C</read></transition>
+<transition><from>((q1.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q2.1 q0.2)</to><read>1 (q1.1 q1.2).2) 3</read></transition>
+<transition><from>((q2.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q0.2).2) A</read></transition>
+<transition><from>((q2.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q0.1 q0.2).2) a</read></transition>
+<transition><from>((q2.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q0.1 q1.2).2) !</read></transition>
+<transition><from>((q2.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q0.2).2) 1</read></transition>
+<transition><from>((q2.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q0.1 q0.2).2) b</read></transition>
+<transition><from>((q2.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q0.2).2) B</read></transition>
+<transition><from>((q2.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q0.2).2) 2</read></transition>
+<transition><from>((q2.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q0.1 q0.2).2) c</read></transition>
+<transition><from>((q2.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q0.2).2) C</read></transition>
+<transition><from>((q2.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q0.2).2) 3</read></transition>
+<transition><from>((q2.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q1.2).2) A</read></transition>
+<transition><from>((q2.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q1.2).2) a</read></transition>
+<transition><from>((q2.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q1.2).2) !</read></transition>
+<transition><from>((q2.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q1.2).2) 1</read></transition>
+<transition><from>((q2.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q1.2).2) b</read></transition>
+<transition><from>((q2.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q1.2).2) B</read></transition>
+<transition><from>((q2.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q1.2).2) 2</read></transition>
+<transition><from>((q2.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q1.2).2) c</read></transition>
+<transition><from>((q2.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q1.2).2) C</read></transition>
+<transition><from>((q2.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q1.2).2) 3</read></transition>
+<transition><from>((q0.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q0.1 q1.2).2) A</read></transition>
+<transition><from>((q0.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q1.1 q0.2)</to><read>1 (q0.1 q1.2).2) a</read></transition>
+<transition><from>((q0.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q1.1 q0.2)</to><read>1 (q0.1 q1.2).2) !</read></transition>
+<transition><from>((q0.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q1.1 q0.2)</to><read>1 (q1.1 q1.2).2) 1</read></transition>
+<transition><from>((q0.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q1.1 q0.2)</to><read>1 (q0.1 q1.2).2) b</read></transition>
+<transition><from>((q0.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q0.1 q1.2).2) B</read></transition>
+<transition><from>((q0.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q1.1 q0.2)</to><read>1 (q1.1 q1.2).2) 2</read></transition>
+<transition><from>((q0.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q1.1 q0.2)</to><read>1 (q0.1 q1.2).2) c</read></transition>
+<transition><from>((q0.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q0.1 q1.2).2) C</read></transition>
+<transition><from>((q0.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q1.1 q0.2)</to><read>1 (q1.1 q1.2).2) 3</read></transition>
+<transition><from>((q2.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q1.2).2) A</read></transition>
+<transition><from>((q2.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q1.2).2) a</read></transition>
+<transition><from>((q2.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q1.2).2) !</read></transition>
+<transition><from>((q2.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q1.2).2) 1</read></transition>
+<transition><from>((q2.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q1.2).2) b</read></transition>
+<transition><from>((q2.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q1.2).2) B</read></transition>
+<transition><from>((q2.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q1.2).2) 2</read></transition>
+<transition><from>((q2.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q1.2).2) c</read></transition>
+<transition><from>((q2.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q1.2).2) C</read></transition>
+<transition><from>((q2.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q1.2).2) 3</read></transition>
+<transition><from>((q0.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q1.1 q0.2).2) A</read></transition>
+<transition><from>((q0.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q1.1 q0.2).2) a</read></transition>
+<transition><from>((q0.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q1.1 q1.2).2) !</read></transition>
+<transition><from>((q0.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q1.1 q0.2).2) 1</read></transition>
+<transition><from>((q0.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q1.1 q0.2).2) b</read></transition>
+<transition><from>((q0.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q1.1 q0.2).2) B</read></transition>
+<transition><from>((q0.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q1.1 q0.2).2) 2</read></transition>
+<transition><from>((q0.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q1.1 q0.2).2) c</read></transition>
+<transition><from>((q0.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q1.1 q0.2).2) C</read></transition>
+<transition><from>((q0.1 q1.2).1 (q1.1 q0.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q1.1 q0.2).2) 3</read></transition>
+<transition><from>((q3.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q1.2).2) A</read></transition>
+<transition><from>((q3.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q1.2).2) a</read></transition>
+<transition><from>((q3.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q1.2).2) !</read></transition>
+<transition><from>((q3.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q1.2).2) 1</read></transition>
+<transition><from>((q3.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q1.2).2) b</read></transition>
+<transition><from>((q3.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q1.2).2) B</read></transition>
+<transition><from>((q3.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q1.2).2) 2</read></transition>
+<transition><from>((q3.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q1.2).2) c</read></transition>
+<transition><from>((q3.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q1.2).2) C</read></transition>
+<transition><from>((q3.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q1.2).2) 3</read></transition>
+<transition><from>((q0.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q0.1 q0.2).2) A</read></transition>
+<transition><from>((q0.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q1.1 q0.2)</to><read>1 (q0.1 q0.2).2) a</read></transition>
+<transition><from>((q0.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q1.1 q0.2)</to><read>1 (q0.1 q1.2).2) !</read></transition>
+<transition><from>((q0.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q1.1 q0.2)</to><read>1 (q1.1 q0.2).2) 1</read></transition>
+<transition><from>((q0.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q1.1 q0.2)</to><read>1 (q0.1 q0.2).2) b</read></transition>
+<transition><from>((q0.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q0.1 q0.2).2) B</read></transition>
+<transition><from>((q0.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q1.1 q0.2)</to><read>1 (q1.1 q0.2).2) 2</read></transition>
+<transition><from>((q0.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q1.1 q0.2)</to><read>1 (q0.1 q0.2).2) c</read></transition>
+<transition><from>((q0.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q0.1 q0.2).2) C</read></transition>
+<transition><from>((q0.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q1.1 q0.2)</to><read>1 (q1.1 q0.2).2) 3</read></transition>
+<transition><from>((q0.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q0.1 q1.2).2) A</read></transition>
+<transition><from>((q0.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q0.1 q1.2).2) a</read></transition>
+<transition><from>((q0.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q0.1 q1.2).2) !</read></transition>
+<transition><from>((q0.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q1.1 q1.2).2) 1</read></transition>
+<transition><from>((q0.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q0.1 q1.2).2) b</read></transition>
+<transition><from>((q0.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q0.1 q1.2).2) B</read></transition>
+<transition><from>((q0.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q1.1 q1.2).2) 2</read></transition>
+<transition><from>((q0.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q0.1 q1.2).2) c</read></transition>
+<transition><from>((q0.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q0.1 q1.2).2) C</read></transition>
+<transition><from>((q0.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q1.1 q1.2).2) 3</read></transition>
+<transition><from>((q2.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q1.2).2) A</read></transition>
+<transition><from>((q2.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q1.2).2) a</read></transition>
+<transition><from>((q2.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q1.2).2) !</read></transition>
+<transition><from>((q2.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q1.2).2) 1</read></transition>
+<transition><from>((q2.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q1.2).2) b</read></transition>
+<transition><from>((q2.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q1.2).2) B</read></transition>
+<transition><from>((q2.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q1.2).2) 2</read></transition>
+<transition><from>((q2.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q1.2).2) c</read></transition>
+<transition><from>((q2.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q1.2).2) C</read></transition>
+<transition><from>((q2.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q1.2).2) 3</read></transition>
+<transition><from>((q3.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q0.2).2) A</read></transition>
+<transition><from>((q3.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q0.2).2) a</read></transition>
+<transition><from>((q3.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q1.2).2) !</read></transition>
+<transition><from>((q3.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q0.2).2) 1</read></transition>
+<transition><from>((q3.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q0.2).2) b</read></transition>
+<transition><from>((q3.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q0.2).2) B</read></transition>
+<transition><from>((q3.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q0.2).2) 2</read></transition>
+<transition><from>((q3.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q0.2).2) c</read></transition>
+<transition><from>((q3.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q0.2).2) C</read></transition>
+<transition><from>((q3.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q0.2).2) 3</read></transition>
+<transition><from>((q1.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q0.1 q1.2).2) A</read></transition>
+<transition><from>((q1.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q0.1 q1.2).2) a</read></transition>
+<transition><from>((q1.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q0.1 q1.2).2) !</read></transition>
+<transition><from>((q1.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q1.1 q1.2).2) 1</read></transition>
+<transition><from>((q1.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q0.1 q1.2).2) b</read></transition>
+<transition><from>((q1.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q0.1 q1.2).2) B</read></transition>
+<transition><from>((q1.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q1.1 q1.2).2) 2</read></transition>
+<transition><from>((q1.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q0.1 q1.2).2) c</read></transition>
+<transition><from>((q1.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q0.1 q1.2).2) C</read></transition>
+<transition><from>((q1.1 q1.2).1 (q0.1 q1.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q1.1 q1.2).2) 3</read></transition>
+<transition><from>((q2.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q0.2).2) A</read></transition>
+<transition><from>((q2.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q0.2).2) a</read></transition>
+<transition><from>((q2.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q1.2).2) !</read></transition>
+<transition><from>((q2.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q0.2).2) 1</read></transition>
+<transition><from>((q2.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q0.2).2) b</read></transition>
+<transition><from>((q2.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q0.2).2) B</read></transition>
+<transition><from>((q2.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q0.2).2) 2</read></transition>
+<transition><from>((q2.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q0.2).2) c</read></transition>
+<transition><from>((q2.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q0.2).2) C</read></transition>
+<transition><from>((q2.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q0.2).2) 3</read></transition>
+<transition><from>((q0.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q1.1 q1.2).2) A</read></transition>
+<transition><from>((q0.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q1.1 q0.2)</to><read>1 (q1.1 q1.2).2) a</read></transition>
+<transition><from>((q0.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q1.1 q0.2)</to><read>1 (q1.1 q1.2).2) !</read></transition>
+<transition><from>((q0.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q1.1 q0.2)</to><read>1 (q1.1 q1.2).2) 1</read></transition>
+<transition><from>((q0.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q1.1 q0.2)</to><read>1 (q1.1 q1.2).2) b</read></transition>
+<transition><from>((q0.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q1.1 q1.2).2) B</read></transition>
+<transition><from>((q0.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q1.1 q0.2)</to><read>1 (q1.1 q1.2).2) 2</read></transition>
+<transition><from>((q0.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q1.1 q0.2)</to><read>1 (q1.1 q1.2).2) c</read></transition>
+<transition><from>((q0.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q1.1 q1.2).2) C</read></transition>
+<transition><from>((q0.1 q0.2).1 (q1.1 q1.2).2)</from><to>((q1.1 q0.2)</to><read>1 (q1.1 q1.2).2) 3</read></transition>
+<transition><from>((q1.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q0.1 q0.2).2) A</read></transition>
+<transition><from>((q1.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q2.1 q0.2)</to><read>1 (q0.1 q0.2).2) a</read></transition>
+<transition><from>((q1.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q2.1 q0.2)</to><read>1 (q0.1 q1.2).2) !</read></transition>
+<transition><from>((q1.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q2.1 q0.2)</to><read>1 (q1.1 q0.2).2) 1</read></transition>
+<transition><from>((q1.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q2.1 q0.2)</to><read>1 (q0.1 q0.2).2) b</read></transition>
+<transition><from>((q1.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q0.1 q0.2).2) B</read></transition>
+<transition><from>((q1.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q2.1 q0.2)</to><read>1 (q1.1 q0.2).2) 2</read></transition>
+<transition><from>((q1.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q2.1 q0.2)</to><read>1 (q0.1 q0.2).2) c</read></transition>
+<transition><from>((q1.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q0.1 q0.2).2) C</read></transition>
+<transition><from>((q1.1 q0.2).1 (q0.1 q0.2).2)</from><to>((q2.1 q0.2)</to><read>1 (q1.1 q0.2).2) 3</read></transition>
+<transition><from>((q3.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q0.2).2) A</read></transition>
+<transition><from>((q3.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q0.2).2) a</read></transition>
+<transition><from>((q3.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q1.2).2) !</read></transition>
+<transition><from>((q3.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q0.2).2) 1</read></transition>
+<transition><from>((q3.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q0.2).2) b</read></transition>
+<transition><from>((q3.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q0.2).2) B</read></transition>
+<transition><from>((q3.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q0.2).2) 2</read></transition>
+<transition><from>((q3.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q0.2).2) c</read></transition>
+<transition><from>((q3.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q0.2).2) C</read></transition>
+<transition><from>((q3.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q0.2).2) 3</read></transition>
+<transition><from>((q3.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q1.2).2) A</read></transition>
+<transition><from>((q3.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q1.2).2) a</read></transition>
+<transition><from>((q3.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q1.2).2) !</read></transition>
+<transition><from>((q3.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q1.2).2) 1</read></transition>
+<transition><from>((q3.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q1.2).2) b</read></transition>
+<transition><from>((q3.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q1.2).2) B</read></transition>
+<transition><from>((q3.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q1.2).2) 2</read></transition>
+<transition><from>((q3.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q1.2).2) c</read></transition>
+<transition><from>((q3.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q1.2).2) C</read></transition>
+<transition><from>((q3.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q1.2).2) 3</read></transition>
+<transition><from>((q0.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q1.1 q1.2).2) A</read></transition>
+<transition><from>((q0.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q1.1 q1.2).2) a</read></transition>
+<transition><from>((q0.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q1.1 q1.2).2) !</read></transition>
+<transition><from>((q0.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q1.1 q1.2).2) 1</read></transition>
+<transition><from>((q0.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q1.1 q1.2).2) b</read></transition>
+<transition><from>((q0.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q1.1 q1.2).2) B</read></transition>
+<transition><from>((q0.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q1.1 q1.2).2) 2</read></transition>
+<transition><from>((q0.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q1.1 q1.2).2) c</read></transition>
+<transition><from>((q0.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q1.1 q1.2).2) C</read></transition>
+<transition><from>((q0.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q1.1 q1.2).2) 3</read></transition>
+<transition><from>((q3.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q1.2).2) A</read></transition>
+<transition><from>((q3.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q0.1 q1.2).2) a</read></transition>
+<transition><from>((q3.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q0.1 q1.2).2) !</read></transition>
+<transition><from>((q3.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q1.2).2) 1</read></transition>
+<transition><from>((q3.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q0.1 q1.2).2) b</read></transition>
+<transition><from>((q3.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q1.2).2) B</read></transition>
+<transition><from>((q3.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q1.2).2) 2</read></transition>
+<transition><from>((q3.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q0.1 q1.2).2) c</read></transition>
+<transition><from>((q3.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q1.2).2) C</read></transition>
+<transition><from>((q3.1 q0.2).1 (q0.1 q1.2).2)</from><to>((q3.1 q0.2)</to><read>1 (q1.1 q1.2).2) 3</read></transition>
+<transition><from>((q0.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q1.1 q0.2).2) A</read></transition>
+<transition><from>((q0.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q1.1 q0.2)</to><read>1 (q1.1 q0.2).2) a</read></transition>
+<transition><from>((q0.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q1.1 q0.2)</to><read>1 (q1.1 q1.2).2) !</read></transition>
+<transition><from>((q0.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q1.1 q0.2)</to><read>1 (q1.1 q0.2).2) 1</read></transition>
+<transition><from>((q0.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q1.1 q0.2)</to><read>1 (q1.1 q0.2).2) b</read></transition>
+<transition><from>((q0.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q1.1 q0.2).2) B</read></transition>
+<transition><from>((q0.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q1.1 q0.2)</to><read>1 (q1.1 q0.2).2) 2</read></transition>
+<transition><from>((q0.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q1.1 q0.2)</to><read>1 (q1.1 q0.2).2) c</read></transition>
+<transition><from>((q0.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q1.1 q1.2)</to><read>1 (q1.1 q0.2).2) C</read></transition>
+<transition><from>((q0.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q1.1 q0.2)</to><read>1 (q1.1 q0.2).2) 3</read></transition>
+<transition><from>((q1.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q0.1 q0.2).2) A</read></transition>
+<transition><from>((q1.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q0.1 q0.2).2) a</read></transition>
+<transition><from>((q1.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q0.1 q1.2).2) !</read></transition>
+<transition><from>((q1.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q1.1 q0.2).2) 1</read></transition>
+<transition><from>((q1.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q0.1 q0.2).2) b</read></transition>
+<transition><from>((q1.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q0.1 q0.2).2) B</read></transition>
+<transition><from>((q1.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q1.1 q0.2).2) 2</read></transition>
+<transition><from>((q1.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q0.1 q0.2).2) c</read></transition>
+<transition><from>((q1.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q0.1 q0.2).2) C</read></transition>
+<transition><from>((q1.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q1.1 q0.2).2) 3</read></transition>
+<transition><from>((q1.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q1.1 q0.2).2) A</read></transition>
+<transition><from>((q1.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q2.1 q0.2)</to><read>1 (q1.1 q0.2).2) a</read></transition>
+<transition><from>((q1.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q2.1 q0.2)</to><read>1 (q1.1 q1.2).2) !</read></transition>
+<transition><from>((q1.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q2.1 q0.2)</to><read>1 (q1.1 q0.2).2) 1</read></transition>
+<transition><from>((q1.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q2.1 q0.2)</to><read>1 (q1.1 q0.2).2) b</read></transition>
+<transition><from>((q1.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q1.1 q0.2).2) B</read></transition>
+<transition><from>((q1.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q2.1 q0.2)</to><read>1 (q1.1 q0.2).2) 2</read></transition>
+<transition><from>((q1.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q2.1 q0.2)</to><read>1 (q1.1 q0.2).2) c</read></transition>
+<transition><from>((q1.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q1.1 q0.2).2) C</read></transition>
+<transition><from>((q1.1 q0.2).1 (q1.1 q0.2).2)</from><to>((q2.1 q0.2)</to><read>1 (q1.1 q0.2).2) 3</read></transition>
+<transition><from>((q1.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q1.1 q1.2).2) A</read></transition>
+<transition><from>((q1.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q1.1 q1.2).2) a</read></transition>
+<transition><from>((q1.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q1.1 q1.2).2) !</read></transition>
+<transition><from>((q1.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q1.1 q1.2).2) 1</read></transition>
+<transition><from>((q1.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q1.1 q1.2).2) b</read></transition>
+<transition><from>((q1.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q1.1 q1.2).2) B</read></transition>
+<transition><from>((q1.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q1.1 q1.2).2) 2</read></transition>
+<transition><from>((q1.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q1.1 q1.2).2) c</read></transition>
+<transition><from>((q1.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q1.1 q1.2).2) C</read></transition>
+<transition><from>((q1.1 q1.2).1 (q1.1 q1.2).2)</from><to>((q2.1 q1.2)</to><read>1 (q1.1 q1.2).2) 3</read></transition>
+<transition><from>((q2.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q0.2).2) A</read></transition>
+<transition><from>((q2.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q0.2).2) a</read></transition>
+<transition><from>((q2.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q1.2).2) !</read></transition>
+<transition><from>((q2.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q0.2).2) 1</read></transition>
+<transition><from>((q2.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q0.2).2) b</read></transition>
+<transition><from>((q2.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q0.2).2) B</read></transition>
+<transition><from>((q2.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q0.2).2) 2</read></transition>
+<transition><from>((q2.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q0.2).2) c</read></transition>
+<transition><from>((q2.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q0.1 q0.2).2) C</read></transition>
+<transition><from>((q2.1 q1.2).1 (q0.1 q0.2).2)</from><to>((q3.1 q1.2)</to><read>1 (q1.1 q0.2).2) 3</read></transition>
+</automaton>
