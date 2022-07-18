@@ -1,0 +1,12 @@
+1##### cases for reg one
+11111111111### if empty, skip forward eleven
+111111### if reading one, skip forward six
+11# if reading hash, add one one hash hash to reg two
+11#
+11##
+11##
+1111111#### go back seven to top
+11# reading a one, add one one hash
+11#
+11##
+11111111111#### go back eleven to top

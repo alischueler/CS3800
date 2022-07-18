@@ -1,0 +1,25 @@
+111##### ;; cases on reg three
+111### ;; if reg three is empty, go forward three to look at reg two
+11#### ;; if reading one, go backwards two
+111#### ;; if reading a hash, go backwards three
+11##### ;; cases on reg two
+111111### ;; if empty, go forwards six to look at reg one
+111### ;; if reading a one, go forward three
+111## ;;if reading a hash add hash to reg 3
+1111#### ;; go backward four 
+111# ;; add one to reg three
+111111#### ;; go backward six
+1##### ;; look at reg one
+111111### ;; if empty go forward six
+111### ;; if one go forward three
+11## ;; if hash add hash to reg two
+1111#### ;; go backward four
+11# ;; if one add one to reg two
+111111#### ;; go backward six
+111##### ;; cases on reg three
+111111###
+111###
+1##
+1111####
+1#
+111111####
