@@ -1,0 +1,26 @@
+STEPS OF ALGORITHM
+1. Read in the cfg file, creating a representation	of a cfg as described below
+2. create copies to mutate of rules and variables along with a list to add variables who have epsilon transitions to
+3. Create a while loop that is initially set to run (ie boolean is set to true)
+4. In the while loop, go through the original rules of the cfg, if any rhs is an epsilon transition then add the las to nullable, remove this from the mutable copy of the rules. Also, if the las only has one hrs associated, remove the lhs variable from the mutable copy of the variables
+5. Create two new maps to keep track of rules to add and rules to remove from our mutable list of rules
+6. Go through the map of the mutable rules, if any rhs has variables that are in the nullable list, create a new rule that does not have any of the nullable variables in it and add this to the list of rules to add. Keep track of all the nullable variables that are in this rule by adding them to a list. If the list of nullables seen in the rhs is greater than 0, add the original rule to the list of rules to remove from our mutable map of rules
+7. Update our mutable map of rules by adding all of the rules in the map of rules to add and removing all of the rules in the map of rules to remove
+8. Create a new copy of our mutable rules
+9. Go through our map of of mutable rules and remove all of the epsilon transitions from our new map of rules
+10. Check the sizes of the mutable map of rules and the new copy of the mutable copy of rules
+11. If the sizes are different, restart the while loop (from step 3), otherwise set the boolean to false
+12. Set the mutable rules equal to a new map initiated with the copy of mutable rules (with epsilon transitions removed)
+13. Return a new cfg that takes in the new variables and new rules that have been mutated from the for loop
+14. Print out the xml representation of this new cfg
+
+DATA TYPES
+# CFG Data Representation:
+A Variable is a String
+A Terminal is a String
+A Rule is a String, LinkedHashSet of String
+A context-free grammar is a 4-tuple (Variables, Terminals, Rules, Start), where
+1. Variables are a LinkedHashSet of String
+2. Terminals are a LinkedHashSet of String
+3. Rules are a Map of String, LinkedHashSet of String
+4. Start Variable is a Variable

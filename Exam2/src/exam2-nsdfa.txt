@@ -1,0 +1,54 @@
+STEPS OF ALGORITHM
+1. Read the xml file of a NSDFA and create a representation of it based on the below
+2. Convert the NSDFA to an NFA by adding a new start state with epsilon transitions to the start states of the DSDFA
+3. Convert the NFA to a DFA using the NFA->DFA file from homework 3
+4. Construct an xml output of the DFA to print
+
+DATA TYPES
+# DFA Data Representation:
+A State has an id and a name
+an id is a String
+a name is an String
+A DFATransition has a from, to read
+from is a String representing the state the transition is starting at
+to is a String representing the state the transition is ending at
+read is a String representing the value the value read off the input for the transition
+A Symbol is a String of length 1
+A DFA is a (states, alphabet, delta, start state, accept states) where:
+ - states is a List of State
+ - alphabet is a List of Symbols
+ - Delta is a List of DFATransitions
+ - start state is a State
+ - accept states is a List of State
+
+#NFA Data Representation
+A State has an id and a name
+an id is a String
+a name is an String
+A DFATransition has a from, to read
+from is a String representing the state the transition is starting at
+to is a String representing the state the transition is ending at
+read is a String representing the value the value read off the input for the transition
+A Symbol is a String of length 1
+A NFA is a (states, alphabet, delta, start state, accept states) where:
+ - states is a List of State
+ - alphabet is a List of Symbols
+ - Delta is a List of DFA Transitions
+ - start state is a State
+ - accept states is a List of State
+
+#NSDFA Data Representation
+A State has an id and a name
+an id is a String
+a name is an String
+A DFATransition has a from, to read
+from is a String representing the state the transition is starting at
+to is a String representing the state the transition is ending at
+read is a String representing the value the value read off the input for the transition
+A Symbol is a String of length 1
+A DFA is a (states, alphabet, delta, start states, accept states) where:
+ - states is a List of State
+ - alphabet is a List of Symbols
+ - Delta is a List of DFA Transitions
+ - start state is a List of State
+ - accept states is a List of State
