@@ -1,0 +1,11 @@
+The reduction from A_TM to R shows R is undecidable, because A_TM is undecidable.
+
+The following machine F computes a reduction f.
+F="On input <M, x>:
+	1. Construct the following machine M'
+	   M' = "On input w:
+		1. Compute r, the reverse of input string w
+		2. Run M on w and r
+		3. If M accepts on w and r, accept
+		4. If M rejects on w, r, or both w and r, then reject"
+	2. Output <M', w>"

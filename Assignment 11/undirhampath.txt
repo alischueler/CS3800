@@ -1,0 +1,27 @@
+The reduction from UNDIRHAMPATH to UNDIRHAMCIRCUIT:
+G is a undirected graph, with a hamiltonian path
+The following machine F computes a reduction f.
+F="On input <G>:
+	1. Create a new undirected graph G', that has all the Vertices and Edges of graph G
+	2. Add a new vertex Vnew to graph G', and edges connecting it to every other vertex in graph G'
+	3. Count the number of Nodes in graph G and set this to v
+	4. Pick a node s, that is not Vnew, this will be the starting and ending node
+	5. Place a mark on node s
+	6. Pick a node connected to s, set this as node t
+	7. Repeat the following until no additional nodes are marked
+	8. Scan all edges of graph G'. If an edge (a,b) is found going from a marked node a to an unmarked node b and unmarked node b is not t or Vnew, or unmarked node b is t and we have marked v-1 nodes, mark node b. 
+	9. Traverse path (t, Vnew), marking Vnew
+	10. Traverse path (Vnew, s), ending the circuit where it started at node s
+	11. Output the undirected Graph G' that has a Hamiltonian Circuit"
+
+The reduction from UNDIRHAMCIRCUIT to UNDIRHAMPATH:
+G is a undirected graph, with a hamiltonian circuit
+The following machine F computes a reduction f.
+F="On input <G>:
+	1. Count the number of Nodes in graph G and set this to v
+	2. Pick a node s, this will be the starting and ending node
+	3. Place a mark on node s
+	4. Pick a Node connected to s, set this as node t
+	5. Repeat the following until no nodes are marked
+	6. Scan all edges of graph G. If an edge (a,b) is found going from a marked node a to an unmarked node b and unmarked node b is not t, or unmarked node b is t and we have marked v-1 nodes, mark node b. 
+	7. output the undirected Graph G that has a Hamiltonian path

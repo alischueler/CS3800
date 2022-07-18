@@ -1,0 +1,25 @@
+I am going off of the assumption that eulpathcomp allows repeats of (s,t)/(t,s) edges once and repeats of nodes
+
+The reduction from EULPATHCOMP to EUILCIRCUITCOMP:
+G is a complete undirected graph with a path from s to t through every edge in G
+The following machine F computes a reduction f.
+F="On input <G, s, t>:
+	1. Create a new graph G' with all of the nodes and vertices of graph G
+	2. If graph G has an even number of vertices, create and add a new vertex to G' and edges connecting it to every other node in graph G'
+	3. Pick a node s in G', will be our starting node
+	4. Repeat the following until no additional edges are marked
+	5. Scan all edges of G'. If an edge (a,b) going from current node a to node b is not marked, mark and traverse edge (a,b)
+	6. Return the complete undirected Graph G' that has a Eulerian Circuit"
+
+The reduction from EUILCIRCUITCOMP to EULPATHCOMP:
+G is a complete undirected graph with a Eulerian circuit
+The following machine F computes a reduction f.
+F="On input <G>:
+	1. Pick a node s in graph G, this will be the starting node
+	2. Pick a node t in graph G that is not s, this will be the ending node
+	3. Node s will be our starting node
+	4. Node t will be out ending node
+	5. Repeat the following until no additional nodes are marked
+	6. Scan all edges of G. If an edge (a,b) going from current node a to node b is not marked, mark edge (a,b)
+	7. Traverse edge (s, t)
+	8. Return the complete undirected Graph G that has a path from s to t through every edge in G"
