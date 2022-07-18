@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--Created with JFLAP 7.1.--><structure>
+	<type>grammar</type>
+	<!--The list of productions.-->
+	<production>
+		<left>A</left>
+		<right>cdD</right>
+	</production>
+	<production>
+		<left>A</left>
+		<right>cEf</right>
+	</production>
+	<production>
+		<left>D</left>
+		<right>bE</right>
+	</production>
+	<production>
+		<left>D</left>
+		<right/>
+	</production>
+	<production>
+		<left>E</left>
+		<right>EaE</right>
+	</production>
+	<production>
+		<left>E</left>
+		<right>EbE</right>
+	</production>
+	<production>
+		<left>E</left>
+		<right>EEb</right>
+	</production>
+	<production>
+		<left>E</left>
+		<right>d</right>
+	</production>
+	<production>
+		<left>E</left>
+		<right>g</right>
+	</production>
+</structure>
